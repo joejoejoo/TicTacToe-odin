@@ -1,0 +1,42 @@
+body{
+background-color: red;
+}
+
+.BigPopa{
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.TicTacToeContainer{
+    display: none;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 100px;
+}
+
+.startButton{
+    margin-top: 50px;
+}
+
+.metaTicCont{
+    display: flex;
+    gap: 250px;
+}
+
+.CirHold{
+    display: none;
+}
+
+.XHold{
+    display: none;
+}
+
+.UWinCircle{
+    display: none;
+}
+
+.UWinX{
+    display: none;
+}
